@@ -1,0 +1,32 @@
+.header1 {
+    color: #3d4449;
+    font-size:22pt;
+}
+
+.FamilyBio {
+    color: #3d4449;
+    font-size: 21pt;
+}
+
+.bio {
+    display: flex;
+}
+
+img {
+    height: auto;
+    width:30%;
+    margin-left: 50px;
+}
+
+.reci1,.reci2 {
+    display: flex;
+}
+
+.Reci article {
+    margin-right: 50px;
+    margin-bottom:50px;
+}
+.mainpg {
+    margin-left: 300px;
+}
+
