@@ -32,12 +32,39 @@
 
 /* About page*/
 
- #Tpics {
-    width:10px;
+ .Tpics {
+    width:400px;
     height: auto;
-}
+   }
 
 .tRow, .bRow
 {
-    display: flex;
+    display: inline-flex;
+}
+
+.tRow article {
+ 
+    margin-left: 100px;
+    padding-right: 200px;
+}
+
+.bRow article {
+
+    margin-left: 100px;
+    padding-right: 200px;
+}
+
+
+
+.Lpic{
+    width: 400px;
+    height: auto;
+}
+
+.Leader {
+    margin-left: 500px;
+}
+
+#AboutH {
+font-size: 20px;
 }
