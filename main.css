@@ -68,3 +68,64 @@
 #AboutH {
 font-size: 20px;
 }
+
+/*Mobile margins*/
+
+@media (max-width: 501px)
+{
+    .Tpics, .Lpic
+    {
+        width: 200px;
+        height: auto;
+    }
+
+    #AboutH
+    {
+      margin-left: 80px;
+    }
+    #AboutH p {
+        text-align: center;
+    }
+
+    .Leader {
+        margin-left: 100px;
+    }
+
+    .tRow, .bRow{
+        display: block;
+    }
+
+    .sidemenu, .mainpg {
+        display:block;
+    }
+    .mainpg {
+        margin-left: 75px;
+    }
+    .sidemenu
+    {
+        margin-left: 200px;
+    }
+
+    .header1, .bio {
+        display: block;
+        text-align: center;
+    }
+    .biopic {
+        width: 200px;
+        height: auto;
+    }
+
+    .Reci h3 {
+        margin-left: 125px;
+    }
+    .reci1, .reci2 {
+        display: block;
+    }
+    .reci1 h4 {
+        text-align: center;
+    }
+    .reci2 h4 {
+        text-align: center;
+    }
+}
+}
