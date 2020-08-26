@@ -1,11 +1,11 @@
 .header1 {
     color: #3d4449;
-    font-size:22pt;
+    font-size:50pt;
 }
 
 .FamilyBio {
     color: #3d4449;
-    font-size: 21pt;
+    font-size: 30pt;
 }
 
 .bio {
@@ -27,7 +27,7 @@
     margin-bottom:50px;
 }
 .mainpg {
-    margin-left: 300px;
+    border-style:dotted;
 }
 
 /* About page*/
@@ -42,16 +42,17 @@
     display: inline-flex;
 }
 
+.leftSection {
+    margin-left:300px;
+}
 .tRow article {
- 
-    margin-left: 100px;
-    padding-right: 200px;
+
+    padding-right: 500px;
 }
 
 .bRow article {
 
-    margin-left: 100px;
-    padding-right: 200px;
+    padding-right: 500px;
 }
 
 
@@ -62,11 +63,19 @@
 }
 
 .Leader {
-    margin-left: 500px;
+    margin-left: 800px;
+    padding-right: 650px;
 }
 
 #AboutH {
 font-size: 20px;
+}
+
+.buttons {
+    margin-right: 50px;
+    font-style: italic;
+    font-size: 22pt;
+
 }
 
 /*Mobile margins*/
@@ -128,4 +137,20 @@ font-size: 20px;
         text-align: center;
     }
 }
+
+
+
+
+
+/*Pretty Stuff*/
+
+
+
+.sidemenu{
+    border-style: dotted;
+}
+.sidemenu h2{
+    border-bottom-style: solid;
+    border-color:red;
+    padding-bottom: 10px;
 }
