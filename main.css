@@ -115,16 +115,6 @@
 .leftSection {
     margin-left:300px;
 }
-.tRow article {
-
-    padding-right: 500px;
-}
-
-.bRow article {
-
-    padding-right: 500px;
-}
-
 
 
 .Lpic{
@@ -139,6 +129,72 @@
 
 #AboutH {
 font-size: 20px;
+}
+
+#AboutH h1 {
+    border-bottom-style:solid;
+    border-color:red;
+    margin-right:1520px;
+}
+
+.heading article{
+    display:inline-flex;
+}
+
+.heading article h2 {
+    border-bottom-style:solid;
+    border-color:red;
+    margin-right:10px;
+    font-size: 30px
+}
+.heading article p {
+    font-size: 25px;
+}
+
+.aboutM article p {
+    font-size: 20px
+}
+
+.aboutM {
+    border-bottom-style: solid;
+    border-color:lightgray;
+    margin-bottom:20px;
+}
+
+.memberStyle article {
+    display:inline-flex;
+}
+.memberStyle article h2 {
+    border-bottom-style: solid;
+    border-color: red;
+    font-size:30px;
+    margin-right:10px;
+}
+
+.memberStyle article p {
+    font-size:25px;
+}
+
+.Mrole article{
+    display:inline-flex;
+}
+
+.Mrole article h2 {
+    
+    border-bottom-style: solid;
+    border-color: red;
+
+}
+
+.Mrole article p {
+    font-size:20px;
+    margin-left:10px;
+}
+
+.aboutText {
+    font-size:20px;
+    padding-right:270px;
+   
 }
 
 
