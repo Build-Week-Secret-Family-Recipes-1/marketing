@@ -12,7 +12,7 @@
     font-size: 30pt;
     border-bottom-style: solid;
     border-color:red;
-    margin-right:560px;
+    margin-right:600px;
 }
 
 .famBioText {
@@ -21,8 +21,7 @@
 } 
 
 .bio {
-    display: flex;    
-    margin-right:100px;
+    display:flex;
 }
 
 
@@ -268,7 +267,7 @@ font-size: 20px;
     }
 
     /*mainpg*/
-    .sidemenu, .mainpg {
+    .wholePage {
         display:block;
     }
     .mainpg {
@@ -276,35 +275,42 @@ font-size: 20px;
     }
     .sidemenu
     {
-        margin-left: 200px;
+        margin-left: 50px;
     }
-
-    .header1, .bio {
-        display: block;
-        text-align: center;
+    .bio {
+        display:block;
     }
+    .famBioText {
+        font-size: 18px;
+    }
+    .Fam h1 {
+        font-size:30px;
+        margin-right:100px;
+    }
+  
     .biopic {
-        width: 200px;
+        width: 350px;
         height: auto;
     }
 
     .Reci h3 {
-        margin-left: 125px;
+        margin-left: 100px;
+        margin-right:160px;
     }
     .reci1, .reci2 {
         display: block;
+        margin-left:0px;
     }
     .reci1 h4 {
-        text-align: center;
+        margin-left:110px;
+        margin-right:140px;
     }
     .reci2 h4 {
-        text-align: center;
+        margin-left:110px;
+        margin-right:140px;
     }
 }
 
 
 
-
-
-/*Pretty Stuff*/
 
