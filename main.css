@@ -123,8 +123,8 @@
 }
 
 .Leader {
-    margin-left: 800px;
-    padding-right: 650px;
+    margin-left: 700px;
+    padding-right: 750px;
 }
 
 #AboutH {
@@ -193,15 +193,28 @@ font-size: 20px;
 
 .aboutText {
     font-size:20px;
-    padding-right:270px;
-   
+    padding-right: 150px;
+    padding-bottom:50px;
 }
 
-.aboutTextL {
+.aboutTextA {
+    font-size: 20px;
+}
+
+.aboutTextR{
     font-size:20px;
-    padding-right:500px;
+    padding-right:300px;
+    padding-bottom: 50px;
+
 }
 
+.anthony {
+    margin-right: 180px;
+}
+
+.rightSide {
+    margin-left: 300px;
+}
 
 /*Mobile margins*/
 
@@ -209,26 +222,52 @@ font-size: 20px;
 {
     .Tpics, .Lpic
     {
-        width: 200px;
+        width: 300px;
         height: auto;
     }
 
     #AboutH
     {
-      margin-left: 80px;
-    }
-    #AboutH p {
-        text-align: center;
+      margin-left: 100px;
     }
 
     .Leader {
         margin-left: 100px;
+        padding-right:0px;
     }
 
     .tRow, .bRow{
         display: block;
+  
     }
 
+    .aboutText{
+        font-size:18px;
+        padding-right:0px;
+    }
+    .aboutTextA {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .aboutTextR {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .leftSection {
+        margin-left: 100px;
+    }
+
+    .rightSide {
+        margin-left: 100px;
+    }
+    .anthony {
+ 
+        margin-right:0px;
+    }
+
+    /*mainpg*/
     .sidemenu, .mainpg {
         display:block;
     }
