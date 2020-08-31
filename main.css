@@ -216,10 +216,112 @@ font-size: 20px;
     margin-left: 300px;
 }
 
-/*Mobile margins*/
 
-@media (max-width: 501px)
+/*Tablet margins*/
+
+
+@media (max-width:800px)
 {
+  .Tpics, .Lpic
+    {
+        width: 300px;
+        height: auto;
+    }
+
+    #AboutH h1
+    {
+      margin-left: 100px;
+      margin-right:15px;
+      font-size: 45px;
+    }
+
+    .Leader {
+        margin-left: 100px;
+        padding-right:0px;
+    }
+
+    .tRow, .bRow{
+        display: block;
+  
+    }
+
+    .aboutText{
+        font-size:18px;
+        padding-right:0px;
+    }
+    .aboutTextA {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .aboutTextR {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .leftSection {
+        margin-left: 100px;
+    }
+
+    .rightSide {
+        margin-left: 100px;
+    }
+    .anthony {
+ 
+        margin-right:0px;
+    }
+
+    /*mainpg*/
+    .wholePage {
+        display:block;
+    }
+    .mainpg {
+        margin-left: 75px;
+    }
+    .sidemenu
+    {
+        margin-left: 50px;
+    }
+    .bio {
+        display:block;
+    }
+    .famBioText {
+        font-size: 18px;
+       
+    }
+    .Fam h1 {
+        font-size:30px;
+        margin-right:400px;
+    }
+  
+    .biopic {
+        width: 350px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .Reci h3 {
+        margin-left: 250px;
+        margin-right:320px;
+    }
+    .reci1, .reci2 {
+        display: block;
+        margin-left:0px;
+    }
+    .reci1 h4 {
+        margin-left:250px;
+        margin-right:290px;
+    }
+    .reci2 h4 {
+        margin-left:250px;
+        margin-right:290px;
+    }
+  
+}
+
+
+@media (max-width:501px) {
+
     .Tpics, .Lpic
     {
         width: 300px;
@@ -285,6 +387,7 @@ font-size: 20px;
     }
     .famBioText {
         font-size: 18px;
+       
     }
     .Fam h1 {
         font-size:30px;
@@ -294,26 +397,23 @@ font-size: 20px;
     .biopic {
         width: 350px;
         height: auto;
+        margin-top: 20px;
     }
 
     .Reci h3 {
-        margin-left: 100px;
-        margin-right:160px;
+        margin-left: 120px;
+        margin-right:150px;
     }
     .reci1, .reci2 {
         display: block;
         margin-left:0px;
     }
     .reci1 h4 {
-        margin-left:110px;
-        margin-right:140px;
+        margin-left:130px;
+        margin-right:120px;
     }
     .reci2 h4 {
-        margin-left:110px;
-        margin-right:140px;
+        margin-left:130px;
+        margin-right:120px;
     }
 }
-
-
-
-
