@@ -12,7 +12,7 @@
     font-size: 30pt;
     border-bottom-style: solid;
     border-color:red;
-    margin-right:560px;
+    margin-right:600px;
 }
 
 .famBioText {
@@ -21,8 +21,7 @@
 } 
 
 .bio {
-    display: flex;    
-    margin-right:100px;
+    display:flex;
 }
 
 
@@ -89,6 +88,8 @@
     padding-right: 50px;
     background-color:lightgrey;
     padding-left:50px;
+    padding-bottom:50px;
+    padding-top:50px;
 }
 
 
@@ -115,16 +116,6 @@
 .leftSection {
     margin-left:300px;
 }
-.tRow article {
-
-    padding-right: 500px;
-}
-
-.bRow article {
-
-    padding-right: 500px;
-}
-
 
 
 .Lpic{
@@ -133,43 +124,157 @@
 }
 
 .Leader {
-    margin-left: 800px;
-    padding-right: 650px;
+    margin-left: 700px;
+    padding-right: 750px;
 }
 
 #AboutH {
 font-size: 20px;
 }
 
+#AboutH h1 {
+    border-bottom-style:solid;
+    border-color:red;
+    margin-right:1500px;
+    font-size:50px;
+}
+
+.heading article{
+    display:inline-flex;
+}
+
+.heading article h2 {
+    border-bottom-style:solid;
+    border-color:red;
+    margin-right:10px;
+    font-size: 30px
+}
+.heading article p {
+    font-size: 25px;
+}
+
+.aboutM article p {
+    font-size: 20px
+}
+
+.aboutM {
+    border-bottom-style: solid;
+    border-color:lightgray;
+    margin-bottom:20px;
+}
+
+.memberStyle article {
+    display:inline-flex;
+}
+.memberStyle article h2 {
+    border-bottom-style: solid;
+    border-color: red;
+    font-size:30px;
+    margin-right:10px;
+}
+
+.memberStyle article p {
+    font-size:25px;
+}
+
+.Mrole article{
+    display:inline-flex;
+}
+
+.Mrole article h2 {
+    
+    border-bottom-style: solid;
+    border-color: red;
+
+}
+
+.Mrole article p {
+    font-size:20px;
+    margin-left:10px;
+}
+
+.aboutText {
+    font-size:20px;
+    padding-right: 150px;
+    padding-bottom:50px;
+}
+
+.aboutTextA {
+    font-size: 20px;
+}
+
+.aboutTextR{
+    font-size:20px;
+    padding-right:300px;
+    padding-bottom: 50px;
+
+}
+
+.anthony {
+    margin-right: 180px;
+}
+
+.rightSide {
+    margin-left: 300px;
+}
 
 
-/*Mobile margins*/
+/*Tablet margins*/
 
-@media (max-width: 501px)
+
+@media (max-width:800px)
 {
-    .Tpics, .Lpic
+  .Tpics, .Lpic
     {
-        width: 200px;
+        width: 300px;
         height: auto;
     }
 
-    #AboutH
+    #AboutH h1
     {
-      margin-left: 80px;
-    }
-    #AboutH p {
-        text-align: center;
+      margin-left: 100px;
+      margin-right:15px;
+      font-size: 45px;
     }
 
     .Leader {
         margin-left: 100px;
+        padding-right:0px;
     }
 
     .tRow, .bRow{
         display: block;
+  
     }
 
-    .sidemenu, .mainpg {
+    .aboutText{
+        font-size:18px;
+        padding-right:0px;
+    }
+    .aboutTextA {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .aboutTextR {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .leftSection {
+        margin-left: 100px;
+    }
+
+    .rightSide {
+        margin-left: 100px;
+    }
+    .anthony {
+ 
+        margin-right:0px;
+    }
+
+    /*mainpg*/
+    .wholePage {
         display:block;
     }
     .mainpg {
@@ -177,35 +282,140 @@ font-size: 20px;
     }
     .sidemenu
     {
-        margin-left: 200px;
+        margin-left: 50px;
     }
-
-    .header1, .bio {
-        display: block;
-        text-align: center;
+    .bio {
+        display:block;
     }
+    .famBioText {
+        font-size: 18px;
+       
+    }
+    .Fam h1 {
+        font-size:30px;
+        margin-right:400px;
+    }
+  
     .biopic {
-        width: 200px;
+        width: 350px;
         height: auto;
+        margin-top: 20px;
     }
 
     .Reci h3 {
-        margin-left: 125px;
+        margin-left: 250px;
+        margin-right:320px;
     }
     .reci1, .reci2 {
         display: block;
+        margin-left:0px;
     }
     .reci1 h4 {
-        text-align: center;
+        margin-left:250px;
+        margin-right:290px;
     }
     .reci2 h4 {
-        text-align: center;
+        margin-left:250px;
+        margin-right:290px;
     }
+  
 }
 
 
+@media (max-width:501px) {
 
+    .Tpics, .Lpic
+    {
+        width: 300px;
+        height: auto;
+    }
 
+    #AboutH h1
+    {
+      margin-left: 100px;
+      margin-right:15px;
+      font-size: 45px;
+    }
 
-/*Pretty Stuff*/
+    .Leader {
+        margin-left: 100px;
+        padding-right:0px;
+    }
 
+    .tRow, .bRow{
+        display: block;
+  
+    }
+
+    .aboutText{
+        font-size:18px;
+        padding-right:0px;
+    }
+    .aboutTextA {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .aboutTextR {
+        font-size:18px;
+        padding-right:0px;
+    }
+
+    .leftSection {
+        margin-left: 100px;
+    }
+
+    .rightSide {
+        margin-left: 100px;
+    }
+    .anthony {
+ 
+        margin-right:0px;
+    }
+
+    /*mainpg*/
+    .wholePage {
+        display:block;
+    }
+    .mainpg {
+        margin-left: 75px;
+    }
+    .sidemenu
+    {
+        margin-left: 50px;
+    }
+    .bio {
+        display:block;
+    }
+    .famBioText {
+        font-size: 18px;
+       
+    }
+    .Fam h1 {
+        font-size:30px;
+        margin-right:100px;
+    }
+  
+    .biopic {
+        width: 350px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .Reci h3 {
+        margin-left: 120px;
+        margin-right:150px;
+    }
+    .reci1, .reci2 {
+        display: block;
+        margin-left:0px;
+    }
+    .reci1 h4 {
+        margin-left:130px;
+        margin-right:120px;
+    }
+    .reci2 h4 {
+        margin-left:130px;
+        margin-right:120px;
+    }
+}
